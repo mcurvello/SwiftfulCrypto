@@ -19,6 +19,7 @@
 		7F62B1B02BBA19B10093F706 /* CoinRowView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7F62B1AF2BBA19B10093F706 /* CoinRowView.swift */; };
 		7F62B1B22BBA1A0A0093F706 /* PreviewProvider.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7F62B1B12BBA1A0A0093F706 /* PreviewProvider.swift */; };
 		7F62B1B42BBA1F690093F706 /* Double.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7F62B1B32BBA1F690093F706 /* Double.swift */; };
+		7F62B1B62BBA28B40093F706 /* HomeViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7F62B1B52BBA28B40093F706 /* HomeViewModel.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -35,6 +36,7 @@
 		7F62B1AF2BBA19B10093F706 /* CoinRowView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CoinRowView.swift; sourceTree = "<group>"; };
 		7F62B1B12BBA1A0A0093F706 /* PreviewProvider.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PreviewProvider.swift; sourceTree = "<group>"; };
 		7F62B1B32BBA1F690093F706 /* Double.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Double.swift; sourceTree = "<group>"; };
+		7F62B1B52BBA28B40093F706 /* HomeViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeViewModel.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -126,6 +128,7 @@
 		7F62B1A32BB9A3090093F706 /* ViewModels */ = {
 			isa = PBXGroup;
 			children = (
+				7F62B1B52BBA28B40093F706 /* HomeViewModel.swift */,
 			);
 			path = ViewModels;
 			sourceTree = "<group>";
@@ -226,6 +229,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				7F62B1B02BBA19B10093F706 /* CoinRowView.swift in Sources */,
+				7F62B1B62BBA28B40093F706 /* HomeViewModel.swift in Sources */,
 				7F62B1902BB99D710093F706 /* ContentView.swift in Sources */,
 				7F62B1A52BB9A31B0093F706 /* HomeView.swift in Sources */,
 				7F62B18E2BB99D710093F706 /* SwiftfulCryptoApp.swift in Sources */,
