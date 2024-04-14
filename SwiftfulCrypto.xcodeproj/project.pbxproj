@@ -29,6 +29,8 @@
 		7F5C9ED02BCB859800C4D1E5 /* Date.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7F5C9ECF2BCB859800C4D1E5 /* Date.swift */; };
 		7F5C9ED22BCC18EC00C4D1E5 /* String.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7F5C9ED12BCC18EC00C4D1E5 /* String.swift */; };
 		7F5C9ED62BCC21C000C4D1E5 /* SettingsView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7F5C9ED52BCC21C000C4D1E5 /* SettingsView.swift */; };
+		7F5C9EDA2BCC2B3800C4D1E5 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 7F5C9ED92BCC2B3800C4D1E5 /* LaunchScreen.storyboard */; };
+		7F5C9EDC2BCC2CF200C4D1E5 /* LaunchView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7F5C9EDB2BCC2CF200C4D1E5 /* LaunchView.swift */; };
 		7F62B18E2BB99D710093F706 /* SwiftfulCryptoApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7F62B18D2BB99D710093F706 /* SwiftfulCryptoApp.swift */; };
 		7F62B1902BB99D710093F706 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7F62B18F2BB99D710093F706 /* ContentView.swift */; };
 		7F62B1952BB99D740093F706 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 7F62B1942BB99D740093F706 /* Preview Assets.xcassets */; };
@@ -72,6 +74,8 @@
 		7F5C9ECF2BCB859800C4D1E5 /* Date.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Date.swift; sourceTree = "<group>"; };
 		7F5C9ED12BCC18EC00C4D1E5 /* String.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = String.swift; sourceTree = "<group>"; };
 		7F5C9ED52BCC21C000C4D1E5 /* SettingsView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SettingsView.swift; sourceTree = "<group>"; };
+		7F5C9ED92BCC2B3800C4D1E5 /* LaunchScreen.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = LaunchScreen.storyboard; sourceTree = "<group>"; };
+		7F5C9EDB2BCC2CF200C4D1E5 /* LaunchView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LaunchView.swift; sourceTree = "<group>"; };
 		7F62B18A2BB99D710093F706 /* SwiftfulCrypto.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = SwiftfulCrypto.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		7F62B18D2BB99D710093F706 /* SwiftfulCryptoApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SwiftfulCryptoApp.swift; sourceTree = "<group>"; };
 		7F62B18F2BB99D710093F706 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
@@ -146,6 +150,23 @@
 			path = Views;
 			sourceTree = "<group>";
 		};
+		7F5C9ED72BCC2B1400C4D1E5 /* Launch */ = {
+			isa = PBXGroup;
+			children = (
+				7F5C9ED82BCC2B2100C4D1E5 /* Views */,
+			);
+			path = Launch;
+			sourceTree = "<group>";
+		};
+		7F5C9ED82BCC2B2100C4D1E5 /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				7F5C9ED92BCC2B3800C4D1E5 /* LaunchScreen.storyboard */,
+				7F5C9EDB2BCC2CF200C4D1E5 /* LaunchView.swift */,
+			);
+			path = Views;
+			sourceTree = "<group>";
+		};
 		7F62B1812BB99D710093F706 = {
 			isa = PBXGroup;
 			children = (
@@ -202,6 +223,7 @@
 		7F62B1A02BB9A2EA0093F706 /* Core */ = {
 			isa = PBXGroup;
 			children = (
+				7F5C9ED72BCC2B1400C4D1E5 /* Launch */,
 				7F62B1A62BB9A3E20093F706 /* Components */,
 				7F62B1A12BB9A2F80093F706 /* Home */,
 				7F47F1D72BCAD28100F2A998 /* Detail */,
@@ -361,6 +383,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				7F5C9EDA2BCC2B3800C4D1E5 /* LaunchScreen.storyboard in Resources */,
 				7F62B1952BB99D740093F706 /* Preview Assets.xcassets in Resources */,
 				7F62B19C2BB99E7C0093F706 /* Assets.xcassets in Resources */,
 			);
@@ -389,6 +412,7 @@
 				7F62B18E2BB99D710093F706 /* SwiftfulCryptoApp.swift in Sources */,
 				7F47F1BF2BC16A4700F2A998 /* UIApplication.swift in Sources */,
 				7F62B1A92BB9A40F0093F706 /* CircleButtonView.swift in Sources */,
+				7F5C9EDC2BCC2CF200C4D1E5 /* LaunchView.swift in Sources */,
 				7F62B19F2BB99F5B0093F706 /* Color.swift in Sources */,
 				7F47F1BD2BC0D79800F2A998 /* SearchBarView.swift in Sources */,
 				7F47F1DB2BCAD2DB00F2A998 /* DetailView.swift in Sources */,
@@ -549,7 +573,7 @@
 				INFOPLIST_KEY_CFBundleDisplayName = "Crypto Tracker";
 				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
-				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen.storyboard;
 				INFOPLIST_KEY_UISupportedInterfaceOrientations = UIInterfaceOrientationPortrait;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
@@ -577,7 +601,7 @@
 				INFOPLIST_KEY_CFBundleDisplayName = "Crypto Tracker";
 				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
-				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen.storyboard;
 				INFOPLIST_KEY_UISupportedInterfaceOrientations = UIInterfaceOrientationPortrait;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
